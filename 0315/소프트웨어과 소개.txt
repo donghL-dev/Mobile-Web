@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>경성대학교 소프트웨어학과</title>
+</head>
+<body>
+  <h1>소프트웨어과, 거기가 무슨 과지?</h1><br>
+  <HR WIDTH="100%"><br>
+
+  <img src="C:\Users\odh62\Desktop\캡쳐저장소\K-106.png"><br>
+
+  <h2>학과의 전체적인 커리큘럼 이미지 </h2><br>
+  <img src="C:\Users\odh62\Desktop\캡쳐저장소\K-107.png"><br>
+   
+  <h3>간단한 학과소개 </h3>
+  <ul>
+         <li>소프트웨어학과는 4차 산업혁명을 이끌 미래 IT 분야 핵심 인재<br>                  양성을 목표로합니다.</li>
+  </ul>
+  <h3>학과 개설년도 : 2018년도 </h3><br>
+  <h3>취업 및 진로 방향 </h3>
+  <ul>
+         <li>본 학과 졸업생의 주요 진로는 웹 및 앱 개발자, 게임 개발자, 서버/네트워크/데이터베이스/보안 관리자, 전산직 공무원,<br> 프리랜서 프로그래머 등을 포함하며, IT 분야 대기업, 중견 및 중소 업체와 금융권 및 일반 기업체 IT 부서,<br> 전산학 관련 국내외 대학원 등으로 진출할 수 있으며 스타트업 창업이 용이한 장점이 있습니다.</li>
+  </ul>
+  <h3>취업 준비를 위한 주요 경진대회, 멘토링 제도, 공모전 목록 </h3>
+  <ul>
+         <li>ACM-ICPC (한국 대학생 프로그래밍 경시대회) [ http://icpckorea.org              ].</li><br>
+         <li>SCPC (삼성 대학생 프로그래밍 경진대회, 2017년 현재 3회) [                        https://www.codeground.org/scpc/commons/intro</li><br>
+         <li>글로벌 SW 공모대전 (2017년 현재 29회) [              http://www.globalswcontest.com/main.php ]</li><br>
+         <li>공개SW개발자대회 (2017년 현재 11회) [              http://project.oss.kr/index.do ]</li><br>
+  </ul>
+  <h3>자격증 및 진출분야 </h3>
+  <img src="C:\Users\odh62\Desktop\캡쳐저장소\K-108.png"><br>
+  <h3>학과의 교수진 및 더 자세한 정보 알아보기. </h3>
+  <h4>다음 이미지 클릭! </h4><br>
+  <a href="https://cms2.ks.ac.kr/"><img src="C:\Users\odh62\Desktop\캡쳐저장소\K-109.png"></a><br>
+  
+  <HR WIDTH="100%"><br>
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1 class="dd">안녕, 나를 소개하지.</h1>
+            <a href="#page2" class="ui-btn-right">다음</a>
+        </div>
+        <div data-role="content">
+            <h2 class="h">간단한 자기소개</h2>
+            <HR WIDTH="1000%">
+            <img id="image" src="https://apps.ks.ac.kr/ksu/servlet/ksusInfo.KsusCardimg?group=A&userid=2014958100" width="200" height="200">
+
+            <p>저는 경성대학교 소프트웨어학과에 재학중인 14학번 임동훈이라고 합니다. 컴퓨터 관련 분야에 관심을 가지고 컴퓨터 공학과에 지원하였고, 현재는 소프트웨어과에 소속되어 있습니다. 전공이 처음에 안 맞는듯
+                하였으나, 현재는 이 과에서 배우고 있는 전공들이 즐겁고 코딩에 흥미를 가지고 있으며 아직도 배우고 싶은게 많고 호기심이 많은 학생입니다. 남은 학교생활동안 다양한 프로젝트 활동과 여러
+                전공 공부 그리고 언어 공부를 더 열심히 하면서 즐겁게 보내고 싶습니다. 그리고 학교를 졸업한 이후에는 제가 배울게 많은 회사에 입사하여 그 내부에서도 인정도 받고 싶으며 자신만의 프라이드가 분명한 소프트웨어 엔지니어가 되고 싶습니다. 지금까지의 목표와 앞으로의 목표 또한 동일합니다. 제가 경험하는 모든 것에 대하여 작은 일부분에 시선을 집중하기보다 커다란 전체를 바라볼 줄 아는 안목을 기르는 것입니다. 조급해하지 않으며 여유를 가지면서 즐기고 싶습니다. </p>
+
+
+            <br>
+            <h4 class="h1"> 다음 장으로 넘어가시면 더 다양한 정보가 있습니다. </h4>
+        </div>
+        <div data-role="footer">
+            <h4>Copyright &copy; 2018 Lim, DongHun</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="page2">
+        <div data-role="header" data-add-back-btn="true">
+            <a href="#page3" class="ui-btn-right">다음</a>
+            <h1 class="dd">안녕, 나를 소개하지.</h1>
+            <a href="#page1" class="ui-btn-left">이전</a>
+        </div>
+        <div data-role="content">
+            <h2 class="h">My Profile</h2>
+            <HR WIDTH="1000%">
+            <ul>
+                <li>Name : Donghun Lim</li>
+                <br>
+                <li>Date of Birth : August 11th, 1995</li>
+                <br>
+                <li>Age : 24 </li>
+                <br>
+                <li>Nationality :
+                    <strong>Republic of Korea</strong>
+                </li>
+                <br>
+                <li>Address : Hwa-myeong-dong, Buk-gu, Busan</li>
+                <br>
+                <li>Phone Number : +82) 010-5068-00** </li>
+                <br>
+                <li>Email : odh621@likelion.org </li>
+                <br>
+                <li>SNS : Instargram(dong_h_08) </li>
+                <br>
+                <li>University : Kyungsung University </li>
+                <br>
+                <li>Major : Science of Software </li>
+                <p>
+                    <strong>Major Reference</strong> : <a href="https://cms2.ks.ac.kr/software/main.do"><strong>Science of Software, Kyungsung University</strong></a>
+                </p>    
+            </ul>
+        </div>
+        <div data-role="footer">
+            <h4>Copyright &copy; 2018 Lim, DongHun</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="page3">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="이전으로">
+            <a href="#page1">처음으로</a>
+            <h1 class="dd">안녕, 나를 소개하지.</h1>
+        </div>
+        <div data-role="content">
+            <h2 class="h">나의 현재, 그리고 미래.</h2>
+            <HR WIDTH="1000%">
+            <ul>
+                <li>군필 유무 : 군필</li><br>
+                <li>내가 가진 자격증 : 운전면허 1종, 워드프로세서 1급, 기타 등등.</li><br>
+                <li>수상 경력 : 현재까진 없음, 앞으로 만들어갈 계획.</li><br>
+                <li>공모전 수상 경력 : 현재까지 공모전에 참가해본 이력 없으나 앞으로는 많이 참여해서 입상도 해보고 싶음.</li><br>
+                <li>프로젝트 : 현재 진행중.</li><br>
+                <li>지금까지 공부했던 전공 과목 : C, C++, Java, 자료구조, 컴퓨터구조, 운영체제, 계산이론</li><br>
+                <li>현재 공부중인 것들 : DataBase, Java, Spring boot, HTML, CSS, JS, Assembly, Network </li><br>
+                <li>앞으로 공부하고 싶은 것들 : Java, Spring, Web, 그리고 다양한 프로젝트들</li><br>
+                <li>현재 하고 있는 것 : 작은 Blog, Github, 작은 프로젝트</li><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9NQuhGIZUMii5S2IBvD1SKb_cnfy5e1c7EQ-mZnroc_ozCHmm"width="350" height="200">
+                <img src="https://i.ytimg.com/vi/EUvmCuPjHD4/maxresdefault.jpg" width="350" height="200">
+                <img src="https://newsignature.com/wp-content/uploads/2017/02/project-management.png" width="350" height="200"><br><br>
+                <li>가까운 미래에 하고싶은 것 : 개발에 자신감을 가질 수 있는 소프트웨어 엔지니어가 되었으면 함.</li><br>
+                <img id="im" src="https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png" width="90%" height="90%"><br>
+                <iframe id="asd" src="https://www.youtube.com/embed/7aA17H-3Vig" frameborder="0" allowfullscreen></iframe>
+            </ul>
+        </div>
+        <div data-role="footer">
+            <h4>Copyright &copy; 2018 Lim, DongHun</h4>
+        </div>
+    </div>
+
+</body>
+
+</html>

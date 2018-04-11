@@ -1,0 +1,22 @@
+< !--  ½Ã¸ÇÆ½ ·¹ÀÌ¾Æ¿ô ¹æ½Ä -- >
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML ·¹ÀÌ¾Æ¿ô</title>
+  </head>
+  <body>
+    <header> ... </header>
+    <nav> ... </nav>
+    <aside> ... </aside>
+    <section id ="section1"> ...
+    </article> ... </article>
+    </section>
+    <section id ="section2"> ...
+     <section id ="section2_1">
+       ...
+     </section>
+    </section>
+    <footer> ... </footer>
+    </body>
+</html>
