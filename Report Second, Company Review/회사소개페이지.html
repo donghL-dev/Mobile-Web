@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>jQuery Mobile</title>
+    <link rel="stylesheet" href="JS/jquery.mobile-1.4.5.min.css"/>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+
+	<script src="JS/jquery-1.11.1.min.js"></script>
+    <script src="JS/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+<div data-role="page" id="page1">
+	<div data-role="header" data-fullscreen="true" data-position="fixed" data-theme="b" >
+		<h1>카카오를 소개해보자!</h1>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#page1" class="ui-btn-active ui-state-persist">카카오는 어떤 회사야?</a></li>
+				<li><a href="#page2">무슨 서비스를 제공해?</a></li>
+				<li><a href="#page3">입사는? 직원 복지는?</a></li>
+			</ul>
+		</div>
+	</div>
+        <br>
+        <img class="im" src="img/kakao.jpg" width="90%" height="90%"><br>
+        <div data-role="content">
+                <div data-role="tabs" class="ui-btn-active">
+                        <div data-role="navbar" class="ui-btn-active">
+                         <ul>
+                            <li><a href="#tab1">카카오의 간단 프로필!</a></li>
+                            <li><a href="#tab2">카카오의 비전!</a></li>
+                            <li><a href="#tab3">카카오 문화?!</a></li>
+                         </ul>
+                        </div>
+                        <div id="tab1">
+                            <div class="ui-bar ui-bar-b">카카오는 말이야...</div><br/>
+                            <div class="ui-body ui-body-a">
+                                <h3>카카오에 대해서 간단하게 알아보자!</h3>
+                                <p id="profile">
+                                    <h4>산업 분야 : 인터넷<br><br>
+                                        창립 : 1995년 2월 16일<br><br>
+                                        시장 정보 코스닥 : 035720<br><br>
+                                        상장일 : 1999년 11월 11일<br><br>
+                                        국가 : 대한민국(Republic of Korea)<br><br>
+                                        본사 : 제주특별자치도 제주시 첨단로 242 (영평동)<br><br>
+                                        핵심 인물 : 김범수 (이사회 의장), 조수용, 여민수 (CO-CEO)<br><br>
+                
+                                        사업 내용 : 포털 및 기타 인터넷 정보매개 서비스업,<br><br> 데이터베이스 및 온라인 정보제공업<br><br>
+                
+                                        제품 : 다음, 카카오톡 등<br><br>
+                                        자본금 : 33,857,857,500원 (2016.12)<br><br>
+                                        매출액 : 1,464,232,790,315원 (2016)<br><br>
+                                        영업이익 : 116,135,055,801원 (2016)<br><br>
+                                        순이익 : 65,455,116,983원 (2016)<br><br>
+                                        자산총액 : 5,484,117,180,416원 (2016.12)<br><br>
+                                        주요 주주 : 김범수 외 특수관계인: 36.17%<br><br>
+                                                    MAXIMO PTE. LTD.: 8.28%<br><br>
+                                        Star Invest Holdings Limited: 8.22%<br><br>
+                                        자회사 : 주식회사 카카오M<br><br>
+                                        종업원 : 2,697명 (2016.12)<br><br>
+                                        더 자세한 정보 알아보기 : <a href="https://ko.wikipedia.org/wiki/%EC%B9%B4%EC%B9%B4%EC%98%A4_(%EA%B8%B0%EC%97%85)">click!</a></h4>
+                                </p>
+                            </div><br/>			
+                            </div> 
+                        <div id="tab2">
+                            <div class="ui-bar ui-bar-b">카카오의 비전은 뭐지?</div><br/>
+                            <div class="ui-body ui-body-a">
+                                    <h3>카카오의 비전!</h3>
+                                    <p>
+                                        <h2>“Connect Everything” 새로운 연결, 더 나은 세상</h2>
+                                        <h4>카카오는 새로운 연결을 통해 더 편리하고 즐거운 세상을 꿈꿉니다.<br>
+                                        사람과 사람, 사람과 기술을 한층 가깝게 연결함으로써 세상을 어제보다 더 나은 곳으로 만들기 위해 노력하고 있습니다.</h4>
+                                    </p>
+                            </div><br/>	
+                        </div>
+                        <div id="tab3">
+                            <div class="ui-bar ui-bar-b">카카오의 문화에 대해서 알아보자!</div><br/>
+                            <div class="ui-body ui-body-a">
+                                    <h3>카카오 문화 소개!</h3>
+                                    <p>
+                                            <h3>어제보다 더 나은 세상을 꿈꾸는 카카오의 문화를 소개합니다. 카카오 문화는 카카오 크루가 만들어가는 카카오만의 문화입니다.</h3>
+                                            <h3>카카오크루</h3>
+                                            <h4>아무도 가보지 않은 길을 함께 가는 사람들, 카카오크루는 세상의 문제를 새로운 시각과 방식으로 해결하고 싶고,<br>
+                                                나에게 충분한 권한과 책임을 받아서 신나게 일하고 싶은 기업가정신이 충만한 사람들을 말합니다.</h4>
+                                            <h3>변화를 준비해온 카카오 크루의 이야기</h3>
+                                            <video class="im" poster="img/kakao.jpg" width="90%" height="90%" controls >
+                                                <source src="video/kakao.mp4">
+                                            </video>
+                
+                                    </p>
+                            </div><br/>	
+                        </div>
+                </div>
+                <div data-role="collapsible" data-theme="b">
+                    <p>
+                        <h3>Reference</h3>
+                        <h4>
+                            이 앱에 사용된 이미지 자료들은 구글 검색을 통해서 얻은 이미지 자료들이며 카카오 서비스의 앱의 이미지들과 카카오 로고는<br>
+                            카카오 홈페이지에서 사용한 것입니다. 영상은 유투브에 있는 영상을 이용해서 앱에 사용하였습니다. 위의 자료들을 인용해서 앱을 만들었습니다.
+                        </h4>
+                    </p>
+                </div>
+        </div>
+
+	<div data-role="footer" data-fullscreen="true" data-position="fixed" data-id="footerid1" data-theme="b" >
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="https://www.kakaocorp.com" data-icon="tag">Kakao 홈페이지</a></li>
+				<li><a href="https://map.naver.com/?mapmode=0&lng=3443e5c6833d1175874bb434799ce7b7&pinId=13197373&pinType=site&lat=bac478eaa1f6eebf54b92e36b5d90d93&dlevel=11&enc=b64" data-icon="location">Kakao의 위치</a></li>
+				<li><a href="https://www.kakaocorp.com/customerSupport/" data-icon="search">Kakao 고객지원</a></li>
+			</ul>
+		</div>
+	</div>	
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header" data-fullscreen="true" data-position="fixed" data-theme="b" >
+		<h1>카카오를 소개해보자!</h1>
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="#page1" data-direction="reverse">카카오는 어떤 회사야?</a></li>
+				<li><a href="#page2" class="ui-btn-active ui-state-persist">무슨 서비스를 제공해?</a></li>
+				<li><a href="#page3">입사는? 직원 복지는?</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+        <br>
+        <img class="im" src="img/yay563645.jpg" width="90%" height="90%"><br>
+
+        <div data-role="content" >
+                <div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+                    <div data-role="collapsible" >
+                        <h3>포탈 서비스</h3>
+                        <p>
+                            <a href="https://www.kakaocorp.com/service/Daum"><img src="img/1.png" width="25%" height="25%"></a>
+                            <h3>Daum</h3>
+                            <h4>검색 포털 서비스</h4>
+                            <a href="https://www.kakaocorp.com/service/DaumNews"><img src="img/2.png" width="25%" height="25%"></a>
+                            <h3>Daum 뉴스</h3>
+                            <h4>세상을 가장 빠르게 만나는 공간, 다음 뉴스</h4>
+                            <a href="https://www.kakaocorp.com/service/DaumSearch"><img src="img/3.png" width="25%" height="25%"></a>
+                            <h3>Daum 검색</h3>
+                            <h4>세상의 모든 정보를 연결하는, Daum 검색</h4>
+                        </p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>커뮤니케이션 서비스</h3>
+                        <p>
+                            <a href="https://www.kakaocorp.com/service/KakaoTalk"><img src="img/4.png" width="25%" height="25%"></a>
+                            <h3>카카오톡</h3>
+                            <h4>사람과 세상, 그 이상을 연결하는 카카오톡</h4>
+                            <a href="https://www.kakaocorp.com/service/KakaoStory"><img src="img/5.png" width="25%" height="25%"></a>
+                            <h3>카카오스토리</h3>
+                            <h4>소소한 일상 속 소소한 이야기, 카카오스토리</h4>
+                            <a href="https://www.kakaocorp.com/service/Cheez"><img src="img/6.png" width="25%" height="25%"></a>
+                            <h3>카카오톡 치즈</h3>
+                            <h4>친구와 함께 노는 카톡 카메라, 카카오톡 치즈</h4>
+                            <a href="https://www.kakaocorp.com/service/DaumMail"><img src="img/7.png" width="25%" height="25%"></a>
+                            <h3>Daum 메일</h3>
+                            <h4>내 하루의 시작, Daum 메일</h4>
+                            <a href="https://www.kakaocorp.com/service/DaumCafe"><img src="img/8.png" width="25%" height="25%"></a>
+                            <h3>Daum 카페</h3>
+                            <h4>모든 이야기의 시작, Daum 카페</h4>
+                            <a href="https://www.kakaocorp.com/service/Agit"><img src="img/9.png" width="25%" height="25%"></a>
+                            <h3>아지트</h3>
+                            <h4>팀의 오픈 커뮤니케이션을 위한 카카오의 협업툴, 아지트</h4>
+                            <a href="https://www.kakaocorp.com/service/Tistory"><img src="img/10.png"width="25%" height="25%"></a>
+                            <h3>티스토리</h3>
+                            <h4>나를 표현하는 블로그, 티스토리</h4>
+                            <a href="https://www.kakaocorp.com/service/Brunch"><img src="img/11.png" width="25%" height="25%"></a>
+                            <h3>브런치</h3>
+                            <h4>글이 작품이 되는 공간, 브런치</h4>
+                        </p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>콘텐츠 서비스!</h3>
+                        <p>
+                            <a href="https://www.kakaocorp.com/service/KakaoPage"><img src="img/12.png" width="25%" height="25%"></a>
+                            <h3>카카오페이지</h3>
+                            <h4>이야기를 보는 완전 새로운 방식, 카카오 페이지</h4>
+                            <a href="https://www.kakaocorp.com/service/KakaoTV"><img src="img/13.png" width="25%" height="25%"></a>
+                            <h3>카카오 TV</h3>
+                            <h4>카톡에서 친구하고 카톡에서 바라보는, 카카오 TV </h4>
+                            <a href="https://www.kakaocorp.com/service/KakaoMusic"><img src="img/14.png" width="25%" height="25%"></a>
+                            <h3>카카오 뮤직</h3>
+                            <h4>친구와 함께 듣는 음악, 카카오 뮤직</h4>
+                            <a href="https://www.kakaocorp.com/service/KakaoFriends"><img src="img/15.png" width="25%" height="25%"></a>
+                            <h3>카카오프렌즈</h3>
+                            <h4>일상 속ㄷ 즐거움, 카카오프렌즈!</h4>
+                            <a href="https://www.kakaocorp.com/service/DaumWebtoon"><img src="img/16.png" width="25%" height="25%"></a>
+                            <h3>Daum 웹툰</h3>
+                            <h4>꿈이 현실이 되는 크리에이터들의 집합소, Daum 웹툰</h4>
+                            <a href="https://www.kakaocorp.com/service/1boon"><img src="img/17.png" width="25%" height="25%"></a>
+                            <h3>1boon</h3>
+                            <h4>당신의 1분을 더 재미있게, 1boon</h4>
+                            <a href="https://www.kakaocorp.com/service/StoryFunding"><img src="img/18.png" width="25%" height="25%"></a>
+                            <h3>스토리펀딩</h3>
+                            <h4>창작자를 응원하는 새로운 방법, 스토리펀딩</h4>      
+                        </p>
+                    </div>
+                    <div data-role="collapsible">
+                            <h3>커머스 서비스!</h3>
+                            <p>
+                                <a href="https://www.kakaocorp.com/service/KakaoGift"><img src="img/19.png" width="25%" height="25%"></a>
+                                <h3>카카오 선물하기</h3>
+                                <h4>쉽게 마음을 전하는 방법, 카카오 선물하기</h4>
+                                <a href="https://www.kakaocorp.com/service/KakaoMart"><img src="img/20.png" width="25%" height="25%"></a>
+                                <h3>카카오 장보기</h3>
+                                <h4>새로운 장보기 습관, 카카오 장보기</h4>
+                                <a href="https://www.kakaocorp.com/service/KakaoStyle"><img src="img/21.png" width="25%" height="25%"></a>
+                                <h3>카카오 스타일</h3>
+                                <h4>내일은 또 뭐입지? 카카오 스타일</h4>
+                                <a href="https://www.kakaocorp.com/service/KakaoFarmer"><img src="img/22.png" width="25%" height="25%"></a>
+                                <h3>카카오파머</h3>
+                                <h4>농산물을 만나는 새로운 습관, 카카오파머</h4>
+                                <a href="https://www.kakaocorp.com/service/DaumShopping"><img src="img/23.png" width="25%" height="25%"></a>
+                                <h3>Daum 쇼핑</h3>
+                                <h4>쉽고 빠른 쇼핑, 스마트한 가격비교, Daum 쇼핑</h4>        
+                            </p>
+                    </div>
+                    <div data-role="collapsible">
+                            <h3>게임 서비스!</h3>
+                            <p>
+                                <a href="https://www.kakaocorp.com/service/KakaoGame"><img src="img/24.png" width="25%" height="25%"></a>
+                                <h3>카카오게임</h3>
+                                <h4>함께 해요! 즐거운 카카오게임!</h4>         
+                            </p>
+                    </div>
+                    <div data-role="collapsible">
+                            <h3>핀테크 서비스!</h3>
+                            <p>
+                                <a href="https://www.kakaocorp.com/service/KakaoPay"><img src="img/25.png"width="25%" height="25%"></a>
+                                <h3>카카오페이</h3>
+                                <h4>당신을 닮다, 생활을 닮다. 카카오페이</h4>              
+                            </p>
+                    </div>
+                    <div data-role="collapsible">
+                            <h3>모빌리티&라이프 서비스</h3>
+                            <p>
+                                <a href="https://www.kakaocorp.com/service/KakaoT"><img src="img/26.png" width="25%" height="25%"></a>
+                                <h3>카카오T</h3>
+                                <h4>모두의 이동을 위한 카카오 T</h4>
+                                <a href="https://www.kakaocorp.com/service/KakaoDriver"><img src="img/27.png" width="25%" height="25%"></a>
+                                <h3>카카오드라이버</h3>
+                                <h4>세상 편한 대리운전, 카카오드라이버</h4>   
+                                <a href="https://www.kakaocorp.com/service/KakaoNavi"><img src="img/28.png" width="25%" height="25%"></a>
+                                <h3>카카오네비</h3>
+                                <h4>네비게이션의 새로운 진화, 카카오네비</h4>   
+                                <a href="https://www.kakaocorp.com/service/KakaoMap"><img src="img/29.png" width="25%" height="25%"></a>
+                                <h3>카카오맵</h3>
+                                <h4>언제 어디서나 믿고 쓰는, 카카오맵</h4>   
+                                <a href="https://www.kakaocorp.com/service/KakaoBus"><img src="img/30.png" width="25%" height="25%"></a>
+                                <h3>카카오버스</h3>
+                                <h4>전국 어디서나 기다리지말고, 카카오버스</h4>   
+                                <a href="https://www.kakaocorp.com/service/KakaoMetro"><img src="img/31.png" width="25%" height="25%"></a>
+                                <h3>카카오지하철</h3>
+                                <h4>지하철 타는 똑똑한 습관, 카카오지하철</h4>   
+                                <a href="https://www.kakaocorp.com/service/KakaoHairshop"><img src="img/32.png" width="25%" height="25%"></a>
+                                <h3>카카오헤어샾</h3>
+                                <h4>미용실 예약할 땐, 카카오 헤어샾</h4>   
+                                <a href="https://www.kakaocorp.com/service/KakaoPlace"><img src="img/33.png" width="25%" height="25%"></a>
+                                <h3>카카오플레이스</h3>
+                                <h4>카톡 친구들의 솔직한 맛집 리뷰, 카카오플레이스</h4>      
+                            </p>
+                    </div>
+                    <div data-role="collapsible">
+                            <h3>소설 임팩트 서비스!</h3>
+                            <p>
+                                <a href="https://www.kakaocorp.com/service/Together"><img src="img/34.png" width="25%" height="25%"></a>
+                                <h3>같이가치 with Kakao</h3>
+                                <h4>카카오의 사회공헌 플랫폼, 같이가치 with Kakao</h4>
+                                <a href="https://www.kakaocorp.com/service/Makers"><img src="img/35.png" width="25%" height="25%"></a>
+                                <h3>메이커스 with Kakao</h3>
+                                <h4>낭비없는 생산, 가치있는 소비, 카카오메이커스</h4>     
+                            </p>
+                    </div>    
+                </div>
+            </div>
+
+
+
+	</div>
+	<div data-role="footer" data-fullscreen="true" data-position="fixed" data-id="footerid1" data-theme="b" >
+		<div data-role="navbar" >
+			<ul>
+                    <li><a href="https://www.kakaocorp.com" data-icon="tag">Kakao 홈페이지</a></li>
+                    <li><a href="https://map.naver.com/?mapmode=0&lng=3443e5c6833d1175874bb434799ce7b7&pinId=13197373&pinType=site&lat=bac478eaa1f6eebf54b92e36b5d90d93&dlevel=11&enc=b64" data-icon="location">Kakao의 위치</a></li>
+                    <li><a href="https://www.kakaocorp.com/customerSupport/" data-icon="search">Kakao 고객지원</a></li>
+			</ul>
+		</div>
+	</div>	
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header" data-fullscreen="true" data-position="fixed" data-theme="b" >
+		<h1>카카오를 소개해보자!</h1>
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="#page1" data-direction="reverse">카카오는 어떤 회사야?</a></li>
+				<li><a href="#page2" data-direction="reverse">무슨 서비스를 제공해?</a></li>
+				<li><a href="#page3" class="ui-btn-active ui-state-persist">입사는? 직원 복지는?</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+        <br>
+        <img class="im" src="img/sese.jpg" width="90%" height="90%"><br>
+
+        <div data-role="tabs">
+                <div data-role="navbar">
+                 <ul>
+                    <li><a href="#tab1">카카오에 지원하기?!</a></li>
+                    <li><a href="#tab2">카카오 크루?</a></li>
+                    <li><a href="#tab3">직원복지는 어떤데?!</a></li>
+                 </ul>
+                </div>
+                <div id="tab1">
+                    <div class="ui-bar ui-bar-b">카카오에 지원하려면 말이야...</div><br/>
+                    <div class="ui-body ui-body-a">
+                        <p>
+                                <h2>카카오는 항상 인재영입을 기다리고 있습니다!</h2>
+                                <h4> 
+                                    진행중인 채용 공고 자세히 보기 -> <a href="https://careers.kakao.com/jobs">클릭!</a><br><br>
+                                    
+                                    카카오에서 찾는 개발자로서 요구하는 기술은 다음과 같은 기술들을 요구합니다.<br><br>
+        
+                                    #Android  #iOS  #Windows  #Web front  #DB  #Cloud  #System  #Network  #Security  #Algorithm/ML<br>  
+                                    #Algorithm/Ranking #Hadoop eco system  #Server  #Statistics/Analysis  #NLP  #NLP linguist  #QA
+                                </h4>
+                            </p>
+                    </div><br/>			
+                    </div> 
+                <div id="tab2">
+                    <div class="ui-bar ui-bar-b">카카오 크루 그게 뭐야?!</div><br/>
+                    <div class="ui-body ui-body-a">
+                            <h3>카카오 크루?</h3>
+                    <p>
+                        <h2>카카오 크루는 카카오에서 일하는 사람을 뜻하는 말입니다.</h2>
+                        <div data-role="collapsible" data-theme="b">
+                            <p>
+                                <h3>일하는 방식</h3>
+                                <h4>
+                                    <ol>
+                                        <li>공개하고 공유합니다.</li><br>
+                                        <li><a href="https://careers.kakao.com/interview/list">영어 호칭</a>을 사용합니다.</li><br>
+                                        <li>권한과 책임을 알고 있습니다.</li><br>
+                                        <li>팀원과 다른 팀 팀장이 업무를 협의합니다.</li><br>
+                                        <li>신뢰를 충돌하며 헌신합니다.</li><br>
+                                        <li>회의를 잘합니다.</li><br>
+                                        <li>다른 부서의 일도 우리의 일입니다.</li><br>
+                                        <li>빠르게 실행해봅니다.</li><br>
+                                        <li>회고합니다.</li><br>
+                                        <li>일에 몰입할수 있는 방식은 서로 다르다는 것을<br>
+                                            알고 있고 그것을 존중합니다.</li>
+                                    </ol>
+                                </h4>
+                            </p>
+                        </div>
+                    </p>
+                    </div><br/>	
+                </div>
+                <div id="tab3">
+                    <div class="ui-bar ui-bar-b">카카오의 문화에 대해서 알아보자!</div><br/>
+                    <div class="ui-body ui-body-a">
+                            <h3>직원 복지는 어떨까?</h3>
+                    <p>
+                        <h2>카카오 크루의 3가지 복지제도!</h2>
+                        <div data-role="collapsible" data-theme="b">
+                                <p>
+                                    <h3>즐거운 카카오크루</h3>
+                                    <h4>
+                                        <ol>
+                                            <li>안식휴가 <br><br>
+                                                크루의 리프레쉬를 위해 매 3년 근속시마다 안식휴가 1개월과 휴가비 200만원을 지원합니다.</li><br>
+                                            <li>편의시설 <br><br>
+                                                크루들의 휴식 공간으로 크루만의 카페를 사내에 운영하고 있으며 남/녀 수면실 및 엄마방(모유수유방)과<br>
+                                                크루들 간의 아이디어 회의나 독서, 게임 등을 할 수 있는 크루 쉼터가 있습니다.</li><br>
+                                            <li>콘도미니엄 <br><br>
+                                                크루들은 회사의 제휴된 휴양지 시설을 이용할 수 있으며, 다양한 활인 혜택을 받아 콘도를 이용할 수 있습니다.</li>   
+                                            
+                                        </ol>
+                                    </h4>
+                                </p>
+                            </div>
+                            <div data-role="collapsible" data-theme="b">
+                                <p>
+                                    <h3>건강한 카카오크루</h3>
+                                    <h4>
+                                        <ol>
+                                            <li>의료비 지원<br><br>
+                                                질병이나 사고로 크루 본인이나 크루 직계가족의 통원 치료비/입원비 등이 발생할 시에 최고 3,000만원의<br>
+                                                의료비를 지원합니다.</li><br>
+                                            <li>건강검진 <br><br>
+                                                크루의 건강관리와 각종 질병 예방을 위해 연 1회 모든 사원의 정밀건강검진을 전문기관에서 받고 있습니다.</li><br>
+                                            <li>단체상해보험 <br><br>
+                                                전 크루를 대상으로 4대 보험 외에 단체상해보험에 가입하여 각종 상해, 사고, 질병에 대한 위험부담을 최소화 할 수<br>
+                                                있도록 보장하고 있습니다.</li>   
+                                                
+                                        </ol>
+                                    </h4>
+                                </p>
+                            </div>
+
+                            <div data-role="collapsible" data-theme="b">
+                                    <p>
+                                        <h3>든든한 카카오크루</h3>
+                                        <h4>
+                                            <ol>
+                                                <li>경조금 지원<br><br>
+                                                    정기휴가를 부여하고, 회사에서는 축하 또는 마음을 표하기 위하여 경조금과 경조화환(조화), 장례지도사와<br>
+                                                    장례도우미를 파견지원하고, 장의용품을 전달하고 있습니다.</li><br>
+                                                <li>대출<br><br>
+                                                    크루의 복리증진과 생활 안정을 목적으로 최대 7,000만 원까지 대출 지원을 하고 있습니다.</li><br>
+                                                <li>직장 어린이집<br><br>
+                                                    영유아 자녀가 있는 임직원에게 믿고 의지하고 생각을 나눌 수 있는 양육의 동반자 역할을 하고자 오피스별로<br>
+                                                    직장어린이집을 운영하고 있습니다. 제주오피스 직장어린이집은 '스페이스 닷 키즈'이며, 판교오피스의<br>
+                                                    직장어린이집은 '늘예솔'입니다.</li>   
+                                            </ol>
+                                        </h4>
+                                    </p>
+                                </div>
+                                
+                    </p>
+                    </div><br/>	
+                </div>
+        </div>
+	</div>
+	<div data-role="footer" data-fullscreen="true" data-position="fixed" data-id="footerid1" data-theme="b" >
+		<div data-role="navbar">
+			<ul>
+                    <li><a href="https://www.kakaocorp.com" data-icon="tag">Kakao 홈페이지</a></li>
+                    <li><a href="https://map.naver.com/?mapmode=0&lng=3443e5c6833d1175874bb434799ce7b7&pinId=13197373&pinType=site&lat=bac478eaa1f6eebf54b92e36b5d90d93&dlevel=11&enc=b64" data-icon="location">Kakao의 위치</a></li>
+                    <li><a href="https://www.kakaocorp.com/customerSupport/" data-icon="search">Kakao 고객지원</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
